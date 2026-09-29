@@ -46,12 +46,14 @@ body {
 .card h3 {
   margin: 0 0 10px;
   font-size: 20px;
+   color:#0B1220
 }
 
 .card p {
   margin: 0;
   font-size: 28px;
   font-weight: bold;
+    color:#18263A
 }
 
 .line {
