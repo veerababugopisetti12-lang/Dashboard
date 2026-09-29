@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background: #0B1220;
+  color: #F8FAFC;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  color: #16526b;
+  margin-bottom: 40px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.main {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.line {
+  width: 90%;
+  margin: 50px auto;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.line h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #16526b;
+}
+
+.title2 {
+  width: 90%;
+  margin: 40px auto 0;
+}
+
+.title2 h1 {
+  margin: 0;
+  padding-left: 5px;
+
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+color: #F8FAFC;
+}
+
+.grapht {
+  width: 90%;
+  margin: 40px auto;
+  padding: 25px 30px;
+
+  box-sizing: border-box;
+
+ background: #111C2E;
+  border: 1px solid #26364D;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.08),
+    0 2px 8px rgba(0, 0, 0, 0.04);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.grapht:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 16px 35px rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.time-filter label {
+  color: #94A3B8;
+}
+
+.time-filter input {
+  background: #18263A;
+  color: #F8FAFC;
+  border: 1px solid #26364D;
+}
